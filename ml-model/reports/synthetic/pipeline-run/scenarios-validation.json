@@ -1,0 +1,108 @@
+{
+  "counts": {
+    "aggregate_rows": 1,
+    "detail_rows": 11,
+    "duplicate_candidate_key_groups": {
+      "Year|State|District|Crime_Category": 3
+    },
+    "duplicate_full_row_groups": 1,
+    "missing_values_by_column": {
+      "Crime_Category": 0,
+      "Crime_Count": 1,
+      "Dataset_Label": 0,
+      "District": 0,
+      "Reporting_Unit": 0,
+      "Scenario": 0,
+      "State": 0,
+      "Year": 0
+    },
+    "records_checked": 12
+  },
+  "dataset_id": "safeher_artificial_synthetic_pipeline_demo",
+  "issues": [
+    {
+      "code": "missing_values",
+      "count": 1,
+      "field": "Crime_Count",
+      "message": "Blank/missing values found in Crime_Count",
+      "severity": "WARNING"
+    },
+    {
+      "code": "duplicate_full_rows",
+      "groups": 1,
+      "message": "Repeated full rows found; none were removed",
+      "severity": "WARNING"
+    },
+    {
+      "affected_rows": 6,
+      "code": "duplicate_candidate_keys",
+      "examples": [
+        [
+          "2022",
+          "SYNTH_STATE_CASE",
+          "SYNTH_DISTRICT_DUPLICATE",
+          "SYNTH_PROPERTY"
+        ],
+        [
+          "2022",
+          "SYNTH_STATE_CASE",
+          "SYNTH_DISTRICT_MULTI_UNIT",
+          "SYNTH_ASSAULT"
+        ],
+        [
+          "2022",
+          "SYNTH_STATE_CASE",
+          "SYNTH_DISTRICT_AMBIGUOUS",
+          "SYNTH_THEFT"
+        ]
+      ],
+      "groups": 3,
+      "key": [
+        "Year",
+        "State",
+        "District",
+        "Crime_Category"
+      ],
+      "message": "Candidate key repeats were found; repeated keys are not automatically errors or removed",
+      "severity": "WARNING"
+    },
+    {
+      "code": "invalid_numeric",
+      "field": "Crime_Count",
+      "message": "Value is not a valid finite number for its configured type",
+      "row": 5,
+      "severity": "ERROR",
+      "value": "not_a_number"
+    },
+    {
+      "code": "negative_count",
+      "field": "Crime_Count",
+      "message": "Configured nonnegative field contains a negative value",
+      "row": 6,
+      "severity": "ERROR",
+      "value": "-4"
+    },
+    {
+      "code": "unexpected_categories",
+      "field": "Crime_Category",
+      "message": "Values outside the explicitly configured vocabulary were found",
+      "severity": "WARNING",
+      "values": {
+        "SYNTH_UNEXPECTED_CATEGORY": 1
+      }
+    },
+    {
+      "aggregate_rows": 1,
+      "code": "aggregate_detail_mixed",
+      "detail_rows": 11,
+      "message": "Potential aggregate and detail-like rows coexist; no row was removed",
+      "severity": "WARNING"
+    }
+  ],
+  "severity_counts": {
+    "ERROR": 2,
+    "INFO": 0,
+    "WARNING": 5
+  },
+  "valid": false
+}

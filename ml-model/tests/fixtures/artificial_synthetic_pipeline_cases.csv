@@ -1,0 +1,13 @@
+sample_id,data_status,region,unit,year,category,category_relation,count,aggregate_label,unused_empty
+S001,ARTIFICIAL_TEST_ONLY, ExampleRegion , ExampleUnit ,2020,ArtificialCategoryA,independent,3,,
+S002,ARTIFICIAL_TEST_ONLY,ExampleRegion,ExampleUnit,2021,ArtificialCategoryA,independent,,,
+S003,ARTIFICIAL_TEST_ONLY,ExampleRegion,ExampleUnit,2022,ArtificialCategoryA,independent,-2,,
+S001,ARTIFICIAL_TEST_ONLY, ExampleRegion , ExampleUnit ,2020,ArtificialCategoryA,independent,3,,
+S005,ARTIFICIAL_TEST_ONLY,ExampleRegion,ExampleUnit,2020,ArtificialCategoryB,independent,4,,
+S006,ARTIFICIAL_TEST_ONLY,ALL,ALL-UNITS,2020,ArtificialCategoryA,independent,7,TOTAL,
+S007,ARTIFICIAL_TEST_ONLY,ExampleRegion,ExampleUnit,2020,ArtificialParent,artificial_parent,5,,
+S008,ARTIFICIAL_TEST_ONLY,ExampleRegion,ExampleUnit,2020,ArtificialChild,artificial_child,2,,
+S009,ARTIFICIAL_TEST_ONLY,ExampleRegion,ExampleUnit,2020,UnexpectedArtificialCategory,independent,1,,
+S010,ARTIFICIAL_TEST_ONLY,ExampleRegion,RAILWAYS,2020,ArtificialCategoryA,independent,1,,
+S011,ARTIFICIAL_TEST_ONLY,ExampleRegion,RAILWAYS,2020,ArtificialCategoryA,independent,2,,
+S012,ARTIFICIAL_TEST_ONLY,ExampleRegion,ExampleUnit,INVALID_YEAR,ArtificialCategoryA,independent,1,,

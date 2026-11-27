@@ -1,0 +1,61 @@
+{
+  "dataset_id": "artificial-fixture-only",
+  "purpose": "ARTIFICIAL_TEST_ONLY; not an NCRB schema or mapping",
+  "required_columns": [
+    "sample_id",
+    "data_status",
+    "region",
+    "unit",
+    "year",
+    "category",
+    "category_relation",
+    "count",
+    "aggregate_label",
+    "unused_empty"
+  ],
+  "expected_columns": [
+    "sample_id",
+    "data_status",
+    "region",
+    "unit",
+    "year",
+    "category",
+    "category_relation",
+    "count",
+    "aggregate_label",
+    "unused_empty"
+  ],
+  "numeric_fields": {
+    "year": "integer",
+    "count": "nonnegative_integer"
+  },
+  "candidate_keys": [["region", "unit", "year"]],
+  "year_field": "year",
+  "allowed_year_range": [2018, 2025],
+  "categorical_fields": ["region", "unit", "category"],
+  "allowed_categories": {
+    "category": [
+      "ArtificialCategoryA",
+      "ArtificialCategoryB",
+      "ArtificialParent",
+      "ArtificialChild"
+    ]
+  },
+  "aggregate_fields": ["aggregate_label", "unit"],
+  "aggregate_indicators": ["TOTAL"],
+  "trim_fields": ["region", "unit"],
+  "conversions": {
+    "year": "integer",
+    "count": "integer"
+  },
+  "quarantine_rules": [
+    {
+      "rule_id": "synthetic_ambiguous_unit_example",
+      "field": "unit",
+      "equals": "RAILWAYS",
+      "reason": "artificial unit label demonstrates quarantine behavior only",
+      "enabled": true
+    }
+  ],
+  "normalize_headers": false
+}

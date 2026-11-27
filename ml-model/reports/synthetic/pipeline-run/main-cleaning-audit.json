@@ -1,0 +1,4101 @@
+{
+  "accepted_count": 240,
+  "flagged_count": 0,
+  "flags_by_source_row": {},
+  "header_mapping": {
+    "Crime_Category": "Crime_Category",
+    "Crime_Count": "Crime_Count",
+    "Dataset_Label": "Dataset_Label",
+    "District": "District",
+    "Reporting_Unit": "Reporting_Unit",
+    "Scenario": "Scenario",
+    "State": "State",
+    "Year": "Year"
+  },
+  "original_count": 240,
+  "preserved_count": 240,
+  "quarantined_count": 0,
+  "record_count_preserved": true,
+  "transformation_audit": [
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "117",
+          "result": 117
+        }
+      ],
+      "source_row_number": 2
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "29",
+          "result": 29
+        }
+      ],
+      "source_row_number": 3
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "187",
+          "result": 187
+        }
+      ],
+      "source_row_number": 4
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "226",
+          "result": 226
+        }
+      ],
+      "source_row_number": 5
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "199",
+          "result": 199
+        }
+      ],
+      "source_row_number": 6
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "24",
+          "result": 24
+        }
+      ],
+      "source_row_number": 7
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "3",
+          "result": 3
+        }
+      ],
+      "source_row_number": 8
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "163",
+          "result": 163
+        }
+      ],
+      "source_row_number": 9
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "100",
+          "result": 100
+        }
+      ],
+      "source_row_number": 10
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "99",
+          "result": 99
+        }
+      ],
+      "source_row_number": 11
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "92",
+          "result": 92
+        }
+      ],
+      "source_row_number": 12
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "238",
+          "result": 238
+        }
+      ],
+      "source_row_number": 13
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "140",
+          "result": 140
+        }
+      ],
+      "source_row_number": 14
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "221",
+          "result": 221
+        }
+      ],
+      "source_row_number": 15
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "178",
+          "result": 178
+        }
+      ],
+      "source_row_number": 16
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "14",
+          "result": 14
+        }
+      ],
+      "source_row_number": 17
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "59",
+          "result": 59
+        }
+      ],
+      "source_row_number": 18
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "190",
+          "result": 190
+        }
+      ],
+      "source_row_number": 19
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "91",
+          "result": 91
+        }
+      ],
+      "source_row_number": 20
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "24",
+          "result": 24
+        }
+      ],
+      "source_row_number": 21
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "164",
+          "result": 164
+        }
+      ],
+      "source_row_number": 22
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "226",
+          "result": 226
+        }
+      ],
+      "source_row_number": 23
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "126",
+          "result": 126
+        }
+      ],
+      "source_row_number": 24
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "48",
+          "result": 48
+        }
+      ],
+      "source_row_number": 25
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "123",
+          "result": 123
+        }
+      ],
+      "source_row_number": 26
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "68",
+          "result": 68
+        }
+      ],
+      "source_row_number": 27
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "92",
+          "result": 92
+        }
+      ],
+      "source_row_number": 28
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "183",
+          "result": 183
+        }
+      ],
+      "source_row_number": 29
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "153",
+          "result": 153
+        }
+      ],
+      "source_row_number": 30
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "213",
+          "result": 213
+        }
+      ],
+      "source_row_number": 31
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "11",
+          "result": 11
+        }
+      ],
+      "source_row_number": 32
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "135",
+          "result": 135
+        }
+      ],
+      "source_row_number": 33
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "31",
+          "result": 31
+        }
+      ],
+      "source_row_number": 34
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "58",
+          "result": 58
+        }
+      ],
+      "source_row_number": 35
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "224",
+          "result": 224
+        }
+      ],
+      "source_row_number": 36
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "167",
+          "result": 167
+        }
+      ],
+      "source_row_number": 37
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "105",
+          "result": 105
+        }
+      ],
+      "source_row_number": 38
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "107",
+          "result": 107
+        }
+      ],
+      "source_row_number": 39
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "107",
+          "result": 107
+        }
+      ],
+      "source_row_number": 40
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "157",
+          "result": 157
+        }
+      ],
+      "source_row_number": 41
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "86",
+          "result": 86
+        }
+      ],
+      "source_row_number": 42
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "42",
+          "result": 42
+        }
+      ],
+      "source_row_number": 43
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "201",
+          "result": 201
+        }
+      ],
+      "source_row_number": 44
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "22",
+          "result": 22
+        }
+      ],
+      "source_row_number": 45
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "169",
+          "result": 169
+        }
+      ],
+      "source_row_number": 46
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "85",
+          "result": 85
+        }
+      ],
+      "source_row_number": 47
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "244",
+          "result": 244
+        }
+      ],
+      "source_row_number": 48
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2020",
+          "result": 2020
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "159",
+          "result": 159
+        }
+      ],
+      "source_row_number": 49
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "57",
+          "result": 57
+        }
+      ],
+      "source_row_number": 50
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "49",
+          "result": 49
+        }
+      ],
+      "source_row_number": 51
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "108",
+          "result": 108
+        }
+      ],
+      "source_row_number": 52
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "7",
+          "result": 7
+        }
+      ],
+      "source_row_number": 53
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "36",
+          "result": 36
+        }
+      ],
+      "source_row_number": 54
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "46",
+          "result": 46
+        }
+      ],
+      "source_row_number": 55
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "219",
+          "result": 219
+        }
+      ],
+      "source_row_number": 56
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "96",
+          "result": 96
+        }
+      ],
+      "source_row_number": 57
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "224",
+          "result": 224
+        }
+      ],
+      "source_row_number": 58
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "96",
+          "result": 96
+        }
+      ],
+      "source_row_number": 59
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "230",
+          "result": 230
+        }
+      ],
+      "source_row_number": 60
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "66",
+          "result": 66
+        }
+      ],
+      "source_row_number": 61
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "79",
+          "result": 79
+        }
+      ],
+      "source_row_number": 62
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "160",
+          "result": 160
+        }
+      ],
+      "source_row_number": 63
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "218",
+          "result": 218
+        }
+      ],
+      "source_row_number": 64
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "248",
+          "result": 248
+        }
+      ],
+      "source_row_number": 65
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "56",
+          "result": 56
+        }
+      ],
+      "source_row_number": 66
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "179",
+          "result": 179
+        }
+      ],
+      "source_row_number": 67
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "57",
+          "result": 57
+        }
+      ],
+      "source_row_number": 68
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "140",
+          "result": 140
+        }
+      ],
+      "source_row_number": 69
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "129",
+          "result": 129
+        }
+      ],
+      "source_row_number": 70
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "68",
+          "result": 68
+        }
+      ],
+      "source_row_number": 71
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "217",
+          "result": 217
+        }
+      ],
+      "source_row_number": 72
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "247",
+          "result": 247
+        }
+      ],
+      "source_row_number": 73
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "239",
+          "result": 239
+        }
+      ],
+      "source_row_number": 74
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "120",
+          "result": 120
+        }
+      ],
+      "source_row_number": 75
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "202",
+          "result": 202
+        }
+      ],
+      "source_row_number": 76
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "95",
+          "result": 95
+        }
+      ],
+      "source_row_number": 77
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "240",
+          "result": 240
+        }
+      ],
+      "source_row_number": 78
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "206",
+          "result": 206
+        }
+      ],
+      "source_row_number": 79
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "196",
+          "result": 196
+        }
+      ],
+      "source_row_number": 80
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "53",
+          "result": 53
+        }
+      ],
+      "source_row_number": 81
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "15",
+          "result": 15
+        }
+      ],
+      "source_row_number": 82
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "215",
+          "result": 215
+        }
+      ],
+      "source_row_number": 83
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "48",
+          "result": 48
+        }
+      ],
+      "source_row_number": 84
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "58",
+          "result": 58
+        }
+      ],
+      "source_row_number": 85
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "21",
+          "result": 21
+        }
+      ],
+      "source_row_number": 86
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "225",
+          "result": 225
+        }
+      ],
+      "source_row_number": 87
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "18",
+          "result": 18
+        }
+      ],
+      "source_row_number": 88
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "22",
+          "result": 22
+        }
+      ],
+      "source_row_number": 89
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "197",
+          "result": 197
+        }
+      ],
+      "source_row_number": 90
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "24",
+          "result": 24
+        }
+      ],
+      "source_row_number": 91
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "152",
+          "result": 152
+        }
+      ],
+      "source_row_number": 92
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "92",
+          "result": 92
+        }
+      ],
+      "source_row_number": 93
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "29",
+          "result": 29
+        }
+      ],
+      "source_row_number": 94
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "191",
+          "result": 191
+        }
+      ],
+      "source_row_number": 95
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "243",
+          "result": 243
+        }
+      ],
+      "source_row_number": 96
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2021",
+          "result": 2021
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "1",
+          "result": 1
+        }
+      ],
+      "source_row_number": 97
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "100",
+          "result": 100
+        }
+      ],
+      "source_row_number": 98
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "222",
+          "result": 222
+        }
+      ],
+      "source_row_number": 99
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "234",
+          "result": 234
+        }
+      ],
+      "source_row_number": 100
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "1",
+          "result": 1
+        }
+      ],
+      "source_row_number": 101
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "227",
+          "result": 227
+        }
+      ],
+      "source_row_number": 102
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "75",
+          "result": 75
+        }
+      ],
+      "source_row_number": 103
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "154",
+          "result": 154
+        }
+      ],
+      "source_row_number": 104
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "103",
+          "result": 103
+        }
+      ],
+      "source_row_number": 105
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "155",
+          "result": 155
+        }
+      ],
+      "source_row_number": 106
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "142",
+          "result": 142
+        }
+      ],
+      "source_row_number": 107
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "229",
+          "result": 229
+        }
+      ],
+      "source_row_number": 108
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "94",
+          "result": 94
+        }
+      ],
+      "source_row_number": 109
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "82",
+          "result": 82
+        }
+      ],
+      "source_row_number": 110
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "209",
+          "result": 209
+        }
+      ],
+      "source_row_number": 111
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "244",
+          "result": 244
+        }
+      ],
+      "source_row_number": 112
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "42",
+          "result": 42
+        }
+      ],
+      "source_row_number": 113
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "11",
+          "result": 11
+        }
+      ],
+      "source_row_number": 114
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "216",
+          "result": 216
+        }
+      ],
+      "source_row_number": 115
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "227",
+          "result": 227
+        }
+      ],
+      "source_row_number": 116
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "169",
+          "result": 169
+        }
+      ],
+      "source_row_number": 117
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "56",
+          "result": 56
+        }
+      ],
+      "source_row_number": 118
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "226",
+          "result": 226
+        }
+      ],
+      "source_row_number": 119
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "202",
+          "result": 202
+        }
+      ],
+      "source_row_number": 120
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "196",
+          "result": 196
+        }
+      ],
+      "source_row_number": 121
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "26",
+          "result": 26
+        }
+      ],
+      "source_row_number": 122
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "139",
+          "result": 139
+        }
+      ],
+      "source_row_number": 123
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "53",
+          "result": 53
+        }
+      ],
+      "source_row_number": 124
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "142",
+          "result": 142
+        }
+      ],
+      "source_row_number": 125
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "155",
+          "result": 155
+        }
+      ],
+      "source_row_number": 126
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "55",
+          "result": 55
+        }
+      ],
+      "source_row_number": 127
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "96",
+          "result": 96
+        }
+      ],
+      "source_row_number": 128
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "137",
+          "result": 137
+        }
+      ],
+      "source_row_number": 129
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "148",
+          "result": 148
+        }
+      ],
+      "source_row_number": 130
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "106",
+          "result": 106
+        }
+      ],
+      "source_row_number": 131
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "246",
+          "result": 246
+        }
+      ],
+      "source_row_number": 132
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "240",
+          "result": 240
+        }
+      ],
+      "source_row_number": 133
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "155",
+          "result": 155
+        }
+      ],
+      "source_row_number": 134
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "102",
+          "result": 102
+        }
+      ],
+      "source_row_number": 135
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "123",
+          "result": 123
+        }
+      ],
+      "source_row_number": 136
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "12",
+          "result": 12
+        }
+      ],
+      "source_row_number": 137
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "94",
+          "result": 94
+        }
+      ],
+      "source_row_number": 138
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "82",
+          "result": 82
+        }
+      ],
+      "source_row_number": 139
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "188",
+          "result": 188
+        }
+      ],
+      "source_row_number": 140
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "12",
+          "result": 12
+        }
+      ],
+      "source_row_number": 141
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "205",
+          "result": 205
+        }
+      ],
+      "source_row_number": 142
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "238",
+          "result": 238
+        }
+      ],
+      "source_row_number": 143
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "143",
+          "result": 143
+        }
+      ],
+      "source_row_number": 144
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2022",
+          "result": 2022
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "102",
+          "result": 102
+        }
+      ],
+      "source_row_number": 145
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "198",
+          "result": 198
+        }
+      ],
+      "source_row_number": 146
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "110",
+          "result": 110
+        }
+      ],
+      "source_row_number": 147
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "230",
+          "result": 230
+        }
+      ],
+      "source_row_number": 148
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "215",
+          "result": 215
+        }
+      ],
+      "source_row_number": 149
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "117",
+          "result": 117
+        }
+      ],
+      "source_row_number": 150
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "15",
+          "result": 15
+        }
+      ],
+      "source_row_number": 151
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "233",
+          "result": 233
+        }
+      ],
+      "source_row_number": 152
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "191",
+          "result": 191
+        }
+      ],
+      "source_row_number": 153
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "9",
+          "result": 9
+        }
+      ],
+      "source_row_number": 154
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "229",
+          "result": 229
+        }
+      ],
+      "source_row_number": 155
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "176",
+          "result": 176
+        }
+      ],
+      "source_row_number": 156
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "200",
+          "result": 200
+        }
+      ],
+      "source_row_number": 157
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "110",
+          "result": 110
+        }
+      ],
+      "source_row_number": 158
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "120",
+          "result": 120
+        }
+      ],
+      "source_row_number": 159
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "47",
+          "result": 47
+        }
+      ],
+      "source_row_number": 160
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "15",
+          "result": 15
+        }
+      ],
+      "source_row_number": 161
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "102",
+          "result": 102
+        }
+      ],
+      "source_row_number": 162
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "126",
+          "result": 126
+        }
+      ],
+      "source_row_number": 163
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "159",
+          "result": 159
+        }
+      ],
+      "source_row_number": 164
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "214",
+          "result": 214
+        }
+      ],
+      "source_row_number": 165
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "199",
+          "result": 199
+        }
+      ],
+      "source_row_number": 166
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "248",
+          "result": 248
+        }
+      ],
+      "source_row_number": 167
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "14",
+          "result": 14
+        }
+      ],
+      "source_row_number": 168
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "77",
+          "result": 77
+        }
+      ],
+      "source_row_number": 169
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "197",
+          "result": 197
+        }
+      ],
+      "source_row_number": 170
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "159",
+          "result": 159
+        }
+      ],
+      "source_row_number": 171
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "153",
+          "result": 153
+        }
+      ],
+      "source_row_number": 172
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "164",
+          "result": 164
+        }
+      ],
+      "source_row_number": 173
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "67",
+          "result": 67
+        }
+      ],
+      "source_row_number": 174
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "105",
+          "result": 105
+        }
+      ],
+      "source_row_number": 175
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "196",
+          "result": 196
+        }
+      ],
+      "source_row_number": 176
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "32",
+          "result": 32
+        }
+      ],
+      "source_row_number": 177
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "83",
+          "result": 83
+        }
+      ],
+      "source_row_number": 178
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "124",
+          "result": 124
+        }
+      ],
+      "source_row_number": 179
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "222",
+          "result": 222
+        }
+      ],
+      "source_row_number": 180
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "198",
+          "result": 198
+        }
+      ],
+      "source_row_number": 181
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "175",
+          "result": 175
+        }
+      ],
+      "source_row_number": 182
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "10",
+          "result": 10
+        }
+      ],
+      "source_row_number": 183
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "158",
+          "result": 158
+        }
+      ],
+      "source_row_number": 184
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "193",
+          "result": 193
+        }
+      ],
+      "source_row_number": 185
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "9",
+          "result": 9
+        }
+      ],
+      "source_row_number": 186
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "211",
+          "result": 211
+        }
+      ],
+      "source_row_number": 187
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "22",
+          "result": 22
+        }
+      ],
+      "source_row_number": 188
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "206",
+          "result": 206
+        }
+      ],
+      "source_row_number": 189
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "229",
+          "result": 229
+        }
+      ],
+      "source_row_number": 190
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "242",
+          "result": 242
+        }
+      ],
+      "source_row_number": 191
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "212",
+          "result": 212
+        }
+      ],
+      "source_row_number": 192
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2023",
+          "result": 2023
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "37",
+          "result": 37
+        }
+      ],
+      "source_row_number": 193
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "136",
+          "result": 136
+        }
+      ],
+      "source_row_number": 194
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "111",
+          "result": 111
+        }
+      ],
+      "source_row_number": 195
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "27",
+          "result": 27
+        }
+      ],
+      "source_row_number": 196
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "7",
+          "result": 7
+        }
+      ],
+      "source_row_number": 197
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "221",
+          "result": 221
+        }
+      ],
+      "source_row_number": 198
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "217",
+          "result": 217
+        }
+      ],
+      "source_row_number": 199
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "16",
+          "result": 16
+        }
+      ],
+      "source_row_number": 200
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "53",
+          "result": 53
+        }
+      ],
+      "source_row_number": 201
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "75",
+          "result": 75
+        }
+      ],
+      "source_row_number": 202
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "89",
+          "result": 89
+        }
+      ],
+      "source_row_number": 203
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "124",
+          "result": 124
+        }
+      ],
+      "source_row_number": 204
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "88",
+          "result": 88
+        }
+      ],
+      "source_row_number": 205
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "183",
+          "result": 183
+        }
+      ],
+      "source_row_number": 206
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "39",
+          "result": 39
+        }
+      ],
+      "source_row_number": 207
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "183",
+          "result": 183
+        }
+      ],
+      "source_row_number": 208
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "236",
+          "result": 236
+        }
+      ],
+      "source_row_number": 209
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "21",
+          "result": 21
+        }
+      ],
+      "source_row_number": 210
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "196",
+          "result": 196
+        }
+      ],
+      "source_row_number": 211
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "91",
+          "result": 91
+        }
+      ],
+      "source_row_number": 212
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "206",
+          "result": 206
+        }
+      ],
+      "source_row_number": 213
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "241",
+          "result": 241
+        }
+      ],
+      "source_row_number": 214
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "168",
+          "result": 168
+        }
+      ],
+      "source_row_number": 215
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "102",
+          "result": 102
+        }
+      ],
+      "source_row_number": 216
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "243",
+          "result": 243
+        }
+      ],
+      "source_row_number": 217
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "138",
+          "result": 138
+        }
+      ],
+      "source_row_number": 218
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "60",
+          "result": 60
+        }
+      ],
+      "source_row_number": 219
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "115",
+          "result": 115
+        }
+      ],
+      "source_row_number": 220
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "174",
+          "result": 174
+        }
+      ],
+      "source_row_number": 221
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "153",
+          "result": 153
+        }
+      ],
+      "source_row_number": 222
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "174",
+          "result": 174
+        }
+      ],
+      "source_row_number": 223
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "103",
+          "result": 103
+        }
+      ],
+      "source_row_number": 224
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "228",
+          "result": 228
+        }
+      ],
+      "source_row_number": 225
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "145",
+          "result": 145
+        }
+      ],
+      "source_row_number": 226
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "2",
+          "result": 2
+        }
+      ],
+      "source_row_number": 227
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "19",
+          "result": 19
+        }
+      ],
+      "source_row_number": 228
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "134",
+          "result": 134
+        }
+      ],
+      "source_row_number": 229
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "112",
+          "result": 112
+        }
+      ],
+      "source_row_number": 230
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "40",
+          "result": 40
+        }
+      ],
+      "source_row_number": 231
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "237",
+          "result": 237
+        }
+      ],
+      "source_row_number": 232
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "127",
+          "result": 127
+        }
+      ],
+      "source_row_number": 233
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "19",
+          "result": 19
+        }
+      ],
+      "source_row_number": 234
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "175",
+          "result": 175
+        }
+      ],
+      "source_row_number": 235
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "85",
+          "result": 85
+        }
+      ],
+      "source_row_number": 236
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "135",
+          "result": 135
+        }
+      ],
+      "source_row_number": 237
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "226",
+          "result": 226
+        }
+      ],
+      "source_row_number": 238
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "179",
+          "result": 179
+        }
+      ],
+      "source_row_number": 239
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "184",
+          "result": 184
+        }
+      ],
+      "source_row_number": 240
+    },
+    {
+      "changes": [
+        {
+          "field": "Year",
+          "operation": "convert_to_integer",
+          "original": "2024",
+          "result": 2024
+        },
+        {
+          "field": "Crime_Count",
+          "operation": "convert_to_integer",
+          "original": "16",
+          "result": 16
+        }
+      ],
+      "source_row_number": 241
+    }
+  ]
+}

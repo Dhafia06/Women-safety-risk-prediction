@@ -1,0 +1,50 @@
+{
+  "dataset_id": "safeher_artificial_synthetic_pipeline_demo",
+  "required_columns": [
+    "Year",
+    "State",
+    "District",
+    "Crime_Category",
+    "Crime_Count",
+    "Reporting_Unit",
+    "Scenario",
+    "Dataset_Label"
+  ],
+  "expected_columns": [
+    "Year",
+    "State",
+    "District",
+    "Crime_Category",
+    "Crime_Count",
+    "Reporting_Unit",
+    "Scenario",
+    "Dataset_Label"
+  ],
+  "numeric_fields": {
+    "Year": "integer",
+    "Crime_Count": "nonnegative_integer"
+  },
+  "candidate_keys": [
+    ["Year", "State", "District", "Crime_Category"]
+  ],
+  "year_field": "Year",
+  "allowed_year_range": [2020, 2024],
+  "categorical_fields": ["State", "District", "Crime_Category", "Reporting_Unit", "Scenario", "Dataset_Label"],
+  "allowed_categories": {
+    "Crime_Category": [
+      "SYNTH_ASSAULT",
+      "SYNTH_PROPERTY",
+      "SYNTH_THEFT"
+    ],
+    "Dataset_Label": ["SYNTHETIC_ARTIFICIAL_ONLY_NOT_REAL_STATISTICS"]
+  },
+  "aggregate_fields": ["District", "Crime_Category"],
+  "aggregate_indicators": ["TOTAL", "ALL-AREA"],
+  "trim_fields": [],
+  "conversions": {
+    "Year": "integer",
+    "Crime_Count": "integer"
+  },
+  "quarantine_rules": [],
+  "normalize_headers": false
+}
