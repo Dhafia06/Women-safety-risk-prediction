@@ -16,6 +16,9 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
+# Python test tooling
+.pytest_cache/
+
 # Build files
 dist/
 build/
@@ -24,3 +27,6 @@ build/
 .vscode/
 .DS_Store
 Thumbs.db
+
+
+ml-model/source-verification/official-downloads/

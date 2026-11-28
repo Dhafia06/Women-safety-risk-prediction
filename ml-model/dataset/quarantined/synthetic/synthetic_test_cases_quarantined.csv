@@ -1,0 +1,3 @@
+Year,State,District,Crime_Category,Crime_Count,Reporting_Unit,Scenario,Dataset_Label,__quarantine_reasons,__quality_flags,__source_row_number
+2022,SYNTH_STATE_CASE,SYNTH_DISTRICT_INVALID_NUMERIC,SYNTH_ASSAULT,not_a_number,SYNTH_REPORTING_UNIT_A,invalid_numeric,SYNTHETIC_ARTIFICIAL_ONLY_NOT_REAL_STATISTICS,invalid_conversion:Crime_Count:[<class 'decimal.ConversionSyntax'>]; invalid_numeric_value:Crime_Count,invalid_conversion:Crime_Count:[<class 'decimal.ConversionSyntax'>]; invalid_numeric_value:Crime_Count,5
+2022,SYNTH_STATE_CASE,SYNTH_DISTRICT_NEGATIVE,SYNTH_THEFT,-4,SYNTH_REPORTING_UNIT_A,negative_count,SYNTHETIC_ARTIFICIAL_ONLY_NOT_REAL_STATISTICS,negative_value:Crime_Count,negative_value:Crime_Count,6

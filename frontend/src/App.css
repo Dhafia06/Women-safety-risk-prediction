@@ -619,6 +619,38 @@ td {
   flex-direction: column;
 }
 
+.location-input-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 22px;
+  font-size: 12px;
+}
+
+.location-input-heading span {
+  color: #a19dad;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.location-button {
+  align-self: flex-start;
+  border: 1px solid #d9d1f2;
+  border-radius: 8px;
+  background: #f7f4ff;
+  color: #6749c2;
+  padding: 10px 12px;
+  margin-top: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.location-button:disabled,
+.primary-button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
 .form-panel label {
   margin-bottom: 8px;
   margin-top: 15px;
@@ -663,6 +695,22 @@ td {
   color: #7454cf;
   font-size: 12px;
   margin-top: 15px;
+  line-height: 1.6;
+}
+
+.form-message-success {
+  color: #21865f;
+}
+
+.form-message-validation,
+.form-message-error,
+.form-message-network-error,
+.form-message-server-error {
+  color: #bf3e4a;
+}
+
+.form-message-loading {
+  color: #7454cf;
 }
 
 .sos-panel {

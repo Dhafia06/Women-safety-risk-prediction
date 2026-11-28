@@ -1,0 +1,134 @@
+{
+  "column_count": 8,
+  "column_names": [
+    "Year",
+    "State",
+    "District",
+    "Crime_Category",
+    "Crime_Count",
+    "Reporting_Unit",
+    "Scenario",
+    "Dataset_Label"
+  ],
+  "data_types": {
+    "Crime_Category": "text",
+    "Crime_Count": "text",
+    "Dataset_Label": "text",
+    "District": "text",
+    "Reporting_Unit": "text",
+    "Scenario": "text",
+    "State": "text",
+    "Year": "integer"
+  },
+  "duplicate_candidate_keys": {
+    "Year,State,District,Crime_Category": {
+      "affected_rows": 6,
+      "duplicate_groups": 3,
+      "examples": [
+        [
+          "2022",
+          "SYNTH_STATE_CASE",
+          "SYNTH_DISTRICT_DUPLICATE",
+          "SYNTH_PROPERTY"
+        ],
+        [
+          "2022",
+          "SYNTH_STATE_CASE",
+          "SYNTH_DISTRICT_MULTI_UNIT",
+          "SYNTH_ASSAULT"
+        ],
+        [
+          "2022",
+          "SYNTH_STATE_CASE",
+          "SYNTH_DISTRICT_AMBIGUOUS",
+          "SYNTH_THEFT"
+        ]
+      ],
+      "extra_occurrences": 3
+    }
+  },
+  "duplicate_full_rows": {
+    "extra_occurrences": 1,
+    "groups": 1
+  },
+  "empty_columns": [],
+  "encoding": "utf-8",
+  "encoding_note": "Valid UTF-8; no BOM",
+  "file_name": "synthetic_test_cases.csv",
+  "file_path": "C:\\Users\\Yashwanth Hegde K\\My Projects\\Women-safety-risk-prediction\\ml-model\\dataset\\synthetic\\synthetic_test_cases.csv",
+  "file_size_bytes": 1924,
+  "invalid_or_unexpected_values": {
+    "Crime_Count": {
+      "not_a_number": 1
+    }
+  },
+  "missing_values": {
+    "Crime_Category": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "Crime_Count": {
+      "count": 1,
+      "percent": 8.3333
+    },
+    "Dataset_Label": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "District": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "Reporting_Unit": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "Scenario": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "State": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "Year": {
+      "count": 0,
+      "percent": 0.0
+    }
+  },
+  "numeric_min_max": {
+    "Crime_Count": {
+      "maximum": "40",
+      "minimum": "-4",
+      "non_numeric_values": {
+        "not_a_number": 1
+      }
+    },
+    "Year": {
+      "maximum": "2022",
+      "minimum": "2022",
+      "non_numeric_values": {}
+    }
+  },
+  "parsing_issues": [],
+  "potential_aggregate_row_count_at_least": 1,
+  "potential_aggregate_rows": [
+    6
+  ],
+  "row_count": 12,
+  "row_width_issue_count_at_least": 0,
+  "row_width_issues": [],
+  "sha256": "B2F0AB0782686016011E31819707A32E5D34D0525DED683F983ED60F11D10F11",
+  "unique_values": {
+    "Crime_Category": [
+      "SYNTH_ASSAULT",
+      "SYNTH_PROPERTY",
+      "SYNTH_THEFT",
+      "SYNTH_UNEXPECTED_CATEGORY"
+    ],
+    "Reporting_Unit": [
+      "SYNTH_REPORTING_UNIT_A",
+      "SYNTH_REPORTING_UNIT_B"
+    ]
+  }
+}

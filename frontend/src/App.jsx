@@ -342,25 +342,137 @@ function SafetyMap() {
 
 function ReportIncident() {
   const [form, setForm] = useState({
-    location: "",
-    type: "",
+    incidentType: "",
     description: "",
+    address: "",
+    latitude: "",
+    longitude: "",
+    incidentDate: "",
   });
+  const [status, setStatus] = useState({ type: "", message: "" });
+  const [loading, setLoading] = useState(false);
 
-  const [message, setMessage] = useState("");
+  function updateField(field, value) {
+    setForm((current) => ({ ...current, [field]: value }));
+    if (status.type) setStatus({ type: "", message: "" });
+  }
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  function useCurrentLocation() {
+    const confirmed = window.confirm(
+      "Use your current GPS location as the incident location? Continue only if this is where the incident occurred.",
+    );
+    if (!confirmed) return;
 
-    if (!form.location || !form.type || !form.description) {
-      setMessage("Please complete all fields.");
+    if (!navigator.geolocation) {
+      setStatus({
+        type: "error",
+        message: "This browser does not support location access. Enter coordinates manually.",
+      });
       return;
     }
 
-    setMessage(
-      "Demo only: report validated locally. Backend submission is not connected yet.",
+    setStatus({ type: "loading", message: "Getting your confirmed incident location…" });
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        setForm((current) => ({
+          ...current,
+          latitude: String(coords.latitude),
+          longitude: String(coords.longitude),
+        }));
+        setStatus({ type: "", message: "Current location added as the incident location." });
+      },
+      (error) => {
+        const message = error.code === error.PERMISSION_DENIED
+          ? "Location permission was denied. Enter the incident coordinates manually."
+          : "Unable to retrieve your location. Enter the incident coordinates manually.";
+        setStatus({ type: "error", message });
+      },
+      { enableHighAccuracy: true, timeout: 10000 },
     );
-    setForm({ location: "", type: "", description: "" });
+  }
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const supportedTypes = ["Harassment", "Theft", "Assault", "Stalking", "Unsafe Area", "Other"];
+    const latitude = form.latitude.trim() === "" ? NaN : Number(form.latitude);
+    const longitude = form.longitude.trim() === "" ? NaN : Number(form.longitude);
+    const incidentTimestamp = form.incidentDate ? new Date(form.incidentDate) : null;
+    const validationErrors = [];
+
+    if (!supportedTypes.includes(form.incidentType)) validationErrors.push("Select a supported incident type.");
+    if (!form.description.trim()) validationErrors.push("Enter an incident description.");
+    if (!form.address.trim()) validationErrors.push("Enter the incident address.");
+    if (form.latitude.trim() === "" || !Number.isFinite(latitude) || latitude < -90 || latitude > 90) {
+      validationErrors.push("Enter a latitude between -90 and 90.");
+    }
+    if (form.longitude.trim() === "" || !Number.isFinite(longitude) || longitude < -180 || longitude > 180) {
+      validationErrors.push("Enter a longitude between -180 and 180.");
+    }
+    if (!form.incidentDate || !incidentTimestamp || Number.isNaN(incidentTimestamp.getTime())) {
+      validationErrors.push("Select a valid date and time for when the incident occurred.");
+    }
+
+    if (validationErrors.length) {
+      setStatus({ type: "validation", message: validationErrors.join(" ") });
+      return;
+    }
+
+    setLoading(true);
+    setStatus({ type: "loading", message: "Submitting incident report…" });
+    const abortController = new AbortController();
+    const timeoutId = window.setTimeout(() => abortController.abort(), 15000);
+
+    try {
+      const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
+      const response = await fetch(`${apiBaseUrl}/api/incidents`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        signal: abortController.signal,
+        body: JSON.stringify({
+          incidentType: form.incidentType,
+          description: form.description.trim(),
+          location: {
+            address: form.address.trim(),
+            coordinates: { latitude, longitude },
+          },
+          incidentDate: incidentTimestamp.toISOString(),
+        }),
+      });
+
+      let result;
+      try {
+        result = await response.json();
+      } catch {
+        setStatus({
+          type: "server-error",
+          message: "The server returned an invalid response. Please try again.",
+        });
+        return;
+      }
+
+      if (response.status !== 201 || result?.success !== true) {
+        const serverMessage = result?.message || "The server could not save this report.";
+        setStatus({
+          type: response.status === 400 ? "validation" : "server-error",
+          message: serverMessage,
+        });
+        return;
+      }
+
+      setStatus({ type: "success", message: "Incident reported successfully." });
+      setForm({ incidentType: "", description: "", address: "", latitude: "", longitude: "", incidentDate: "" });
+    } catch (error) {
+      const isTimeout = error.name === "AbortError";
+      setStatus({
+        type: "network-error",
+        message: isTimeout
+          ? "The request timed out. Check the backend connection and try again."
+          : error.message || "Unable to reach the server. Check your connection and try again.",
+      });
+    } finally {
+      window.clearTimeout(timeoutId);
+      setLoading(false);
+    }
   }
 
   return (
@@ -379,39 +491,56 @@ function ReportIncident() {
           personal details.
         </p>
 
-        <form onSubmit={handleSubmit}>
-          <label>Incident Location</label>
-          <input
-            value={form.location}
-            onChange={(e) => setForm({ ...form, location: e.target.value })}
-            placeholder="Enter location"
-          />
-
-          <label>Incident Type</label>
-          <select
-            value={form.type}
-            onChange={(e) => setForm({ ...form, type: e.target.value })}
-          >
+        <form onSubmit={handleSubmit} noValidate>
+          <label htmlFor="incident-type">Incident Type</label>
+          <select id="incident-type" required value={form.incidentType} onChange={(e) => updateField("incidentType", e.target.value)}>
             <option value="">Select incident type</option>
             <option>Harassment</option>
             <option>Theft</option>
             <option>Assault</option>
-            <option>Suspicious Activity</option>
+            <option>Stalking</option>
+            <option>Unsafe Area</option>
             <option>Other</option>
           </select>
 
-          <label>Description</label>
+          <label htmlFor="incident-description">Description</label>
           <textarea
+            id="incident-description"
             rows="5"
+            required
             value={form.description}
-            onChange={(e) => setForm({ ...form, description: e.target.value })}
+            onChange={(e) => updateField("description", e.target.value)}
             placeholder="Describe the incident..."
           />
 
-          <button className="primary-button" type="submit">
-            Submit Report
+          <label htmlFor="incident-address">Incident Address</label>
+          <input
+            id="incident-address"
+            required
+            value={form.address}
+            onChange={(e) => updateField("address", e.target.value)}
+            placeholder="Enter where the incident occurred"
+          />
+
+          <div className="location-input-heading">
+            <strong>Incident Coordinates</strong>
+            <span>Temporary manual entry until Mapbox is integrated</span>
+          </div>
+          <button className="location-button" type="button" onClick={useCurrentLocation} disabled={loading}>
+            Use my current location as incident location
           </button>
-          {message && <p className="form-message">{message}</p>}
+          <label htmlFor="incident-latitude">Latitude</label>
+          <input id="incident-latitude" type="text" inputMode="decimal" required value={form.latitude} onChange={(e) => updateField("latitude", e.target.value)} placeholder="-90 to 90" />
+          <label htmlFor="incident-longitude">Longitude</label>
+          <input id="incident-longitude" type="text" inputMode="decimal" required value={form.longitude} onChange={(e) => updateField("longitude", e.target.value)} placeholder="-180 to 180" />
+
+          <label htmlFor="incident-date">When did the incident occur? (local date and time)</label>
+          <input id="incident-date" type="datetime-local" required value={form.incidentDate} onChange={(e) => updateField("incidentDate", e.target.value)} />
+
+          <button className="primary-button" type="submit" disabled={loading}>
+            {loading ? "Submitting…" : "Submit Report"}
+          </button>
+          {status.message && <p className={`form-message form-message-${status.type}`} role={status.type === "loading" ? "status" : "alert"} aria-live="polite">{status.message}</p>}
         </form>
       </div>
     </div>

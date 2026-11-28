@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "aggregate_rows": 0,
+    "detail_rows": 240,
+    "duplicate_candidate_key_groups": {
+      "Year|State|District|Crime_Category": 0
+    },
+    "duplicate_full_row_groups": 0,
+    "missing_values_by_column": {
+      "Crime_Category": 0,
+      "Crime_Count": 0,
+      "Dataset_Label": 0,
+      "District": 0,
+      "Reporting_Unit": 0,
+      "Scenario": 0,
+      "State": 0,
+      "Year": 0
+    },
+    "records_checked": 240
+  },
+  "dataset_id": "safeher_artificial_synthetic_pipeline_demo",
+  "issues": [],
+  "severity_counts": {
+    "ERROR": 0,
+    "INFO": 0,
+    "WARNING": 0
+  },
+  "valid": true
+}
